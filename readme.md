@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Rahul-mizoSharma
-- 👀 I’m interested in Artificial Intelligence & Machine Learning
-- 🌱 I’m currently learning Python along with HTML,CSS etc.
+- 👀 I’m interested in learning AI&ML 
+- 🌱 I know varous progamming language such as  Python along with HTML,CSS and some bascs of java.
 
 
 <!---
