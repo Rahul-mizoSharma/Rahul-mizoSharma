@@ -1,0 +1,6 @@
+def find_side_of_square():
+    perimeter = float(input("Enter the perimeter of the square: "))
+    side = perimeter / 4
+    print(f"The side of the square is: {side}")
+
+find_side_of_square()
