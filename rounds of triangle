@@ -1,0 +1,8 @@
+# number of rounds around a triangle
+x=30
+y=25
+z=35
+perimeter = x + y + z
+total_distance = 560
+no_of_rounds  = total_distance // perimeter
+print(no_of_rounds)
