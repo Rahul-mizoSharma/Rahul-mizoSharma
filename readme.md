@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Rahul-mizoSharma
-- 👀 I’m interested in learning AI&ML 
-- 🌱 I know varous progamming language such as  Python along with HTML,CSS and some bascs of java.
-
+- 👀 I’m interested in learning AI&ML. 
+- 🌱 I know various progamming language such as Python along with HTML,CSS and some bascs of java.
+- I am building projects using reactjs and nodejs.
 
 <!---
 Rahul-mizoSharma/Rahul-mizoSharma is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
