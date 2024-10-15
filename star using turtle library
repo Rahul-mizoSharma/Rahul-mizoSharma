@@ -1,0 +1,37 @@
+import turtle
+import math
+
+def draw_spirograph(R, r, l):
+    turtle.speed(0)  # Set the fastest speed
+    turtle.bgcolor("black")
+    turtle.pencolor("white")
+    
+    # Calculate the number of rotations needed
+    gcd = math.gcd(R, r)
+    rotations = r // gcd
+    
+    theta = 0
+    
+    # Calculate the starting position
+    x = (R - r) * math.cos(theta) + l * math.cos((R - r) * theta / r)
+    y = (R - r) * math.sin(theta) - l * math.sin((R - r) * theta / r)
+    
+    # Move to the starting position without drawing
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pendown()
+    
+    while theta <= 2 * math.pi * rotations:
+        x = (R - r) * math.cos(theta) + l * math.cos((R - r) * theta / r)
+        y = (R - r) * math.sin(theta) - l * math.sin((R - r) * theta / r)
+        turtle.goto(x, y)
+        theta += 0.01
+
+# Set up the screen
+turtle.setup(800, 800)
+
+# Draw the spirograph
+draw_spirograph(200, 80, 60)
+
+# Keep the window open
+turtle.done()
