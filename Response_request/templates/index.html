@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Request-Response App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .message-container {
+            margin-top: 20px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            min-height: 200px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        #messageInput {
+            padding: 8px;
+            width: 300px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 8px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #messageDisplay {
+            padding: 10px;
+        }
+        #messageDisplay p {
+            background-color: white;
+            padding: 8px;
+            border-radius: 4px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+        }
+        #messageDisplay p strong {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Request-Response App</h1>
+    <div>
+        <input type="text" id="messageInput" placeholder="Enter your message">
+        <button onclick="sendMessage()">Send Message</button>
+    </div>
+    
+    <div class="message-container">
+        <h3>Messages:</h3>
+        <div id="messageDisplay"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html> 
