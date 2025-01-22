@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light background color */
+}
+
+header {
+    background: #ff6347; /* Tomato color */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+#posts {
+    margin-bottom: 20px;
+}
+
+.post {
+    border: 2px solid #ffa07a; /* Light salmon border */
+    background-color: #fff; /* White background for posts */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.post h3 {
+    margin: 0;
+    color: #ff4500; /* Orange red for post titles */
+}
+
+.post p {
+    color: #333; /* Darker text for readability */
+}
+
+.post button {
+    background-color: #32cd32; /* Lime green for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.post button:hover {
+    background-color: #28a745; /* Darker green on hover */
+}
+
+#post-form {
+    background-color: #ffe4e1; /* Misty rose background for form */
+    border: 2px solid #ff69b4; /* Hot pink border */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#post-form h2 {
+    color: #ff1493; /* Deep pink for form title */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 2px solid #ffb6c1; /* Light pink border */
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #ff69b4; /* Hot pink on focus */
+    outline: none; /* Remove outline */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

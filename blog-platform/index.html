@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blogging Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <main>
+        <section id="posts">
+            <!-- Posts will be dynamically inserted here -->
+        </section>
+        <section id="post-form">
+            <h2>Create Post</h2>
+            <form id="postForm">
+                <input type="text" id="title" placeholder="Post Title" required>
+                <textarea id="content" placeholder="Post Content" required></textarea>
+                <input type="text" id="tags" placeholder="Tags (comma separated)">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Blog</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
