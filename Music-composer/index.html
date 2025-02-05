@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Music Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="themeToggleBtn" class="theme-toggle-btn">
+            <span class="current-theme">Theme</span>
+            <svg class="toggle-icon" viewBox="0 0 24 24">
+                <path d="M7 10l5 5 5-5z"/>
+            </svg>
+        </button>
+        <div class="theme-dropdown">
+            <div class="theme-option" data-theme="classic">
+                <span class="theme-color classic"></span>
+                Classic
+            </div>
+            <div class="theme-option" data-theme="jazz">
+                <span class="theme-color jazz"></span>
+                Jazz
+            </div>
+            <div class="theme-option" data-theme="electronic">
+                <span class="theme-color electronic"></span>
+                Electronic
+            </div>
+            <div class="theme-option" data-theme="ambient">
+                <span class="theme-color ambient"></span>
+                Ambient
+            </div>
+            <div class="theme-option" data-theme="rock">
+                <span class="theme-color rock"></span>
+                Rock
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+            <h1>AI Music Generator</h1>
+            
+            <div class="input-section">
+                <div class="form-group">
+                    <label for="genre">Genre:</label>
+                    <input type="text" id="genre" placeholder="e.g., Jazz, Classical, Rock">
+                </div>
+                
+                <div class="form-group">
+                    <label for="instruments">Instruments:</label>
+                    <input type="text" id="instruments" placeholder="e.g., Piano, Guitar, Drums">
+                </div>
+                
+                <div class="form-group">
+                    <label for="mood">Mood:</label>
+                    <input type="text" id="mood" placeholder="e.g., Happy, Melancholic, Energetic">
+                </div>
+                
+                <button id="generateBtn">Generate Music</button>
+            </div>
+
+            <div class="player-section">
+                <div id="musicPlayer" class="player-box">
+                    <!-- Music player will be added here -->
+                </div>
+                <div class="visualizer-container">
+                    <canvas id="musicVisualizer"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajs.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 
