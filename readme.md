@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Rahul-mizoSharma
 - 👀 I’m interested in learning AI&ML. 
-- 🌱 I know various progamming language such as Python along with HTML,CSS and some basics of java.
+- 🌱 I know various progamming language such as Python along with HTML,CSS and java.
 - I am building projects using reactjs and nodejs.
 
 <!---
