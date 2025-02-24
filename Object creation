@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class PentagonSpace {
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter the name");
+	String name = sc.nextLine();
+	System.out.println("enter the age");
+	int age = sc.nextInt();
+    System.out.println("enter the email");
+	    String email = sc.nextLine();
+	    sc.nextLine();
+	    System.out.println("enter the phone number");
+	    long phone = sc.nextLong();
+	    System.out.println("enter the gender");
+	    char gender = sc.next().charAt(0);
+	    System.out.println("enter the College name");
+	    String college = sc.nextLine();
+	    sc.nextLine();
+	    System.out.println("enter the branch");
+	    String branch = sc.nextLine();
+	    System.out.println("enter the passout year");
+	    int pass = sc.nextInt();
+	    System.out.println("Is there any backlog?");
+	    boolean back = sc.nextBoolean();
+	    System.out.println("name=" + name);
+	    System.out.println("age=" + age);
+	    System.out.println("email=" + email);
+	    System.out.println("phone=" + phone);
+	    System.out.println("gender=" + gender);
+	    System.out.println("college=" + college);
+	    System.out.println("branch=" + branch);
+	    System.out.println("pass=" + pass);
+	    System.out.println("back=" + back);
+	    
+	  }
+	}
